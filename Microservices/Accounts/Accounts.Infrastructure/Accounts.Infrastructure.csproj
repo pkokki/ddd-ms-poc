@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\Core.Adapters.HttpClient\Core.Adapters.HttpClients.csproj" />
+    <ProjectReference Include="..\..\..\Core\Core.Domain\Core.Domain.csproj" />
+    <ProjectReference Include="..\..\..\ExternalServices\ExtAccountService.Client\ExtAccountService.Client.csproj" />
+    <ProjectReference Include="..\Accounts.Application\Accounts.Application.csproj" />
+  </ItemGroup>
+
+</Project>
